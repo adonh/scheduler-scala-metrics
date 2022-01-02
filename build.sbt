@@ -4,7 +4,7 @@ lazy val scala211 = "2.11.12"
 lazy val supportedScalaVersions = List(scala213, scala212, scala211)
 
 ThisBuild / organization := "com.pagerduty"
-ThisBuild / scalaVersion := scala212
+ThisBuild / scalaVersion := scala211
 
 lazy val root = (project in file("."))
   .aggregate(api, gauge, dogstatsd)
